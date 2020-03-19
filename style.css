@@ -1,18 +1,80 @@
 header {
-    text-align: center;
+  text-align: center;
 }
 
-main {
-    background-image: url(https://hg-images.condecdn.net/image/YZk0rZk1vjE/crop/1440/f/miso.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-} 
 .main {
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-image: url(https://hg-images.condecdn.net/image/YZk0rZk1vjE/crop/1440/f/miso.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.repPage {
+  background-image: url(https://i.pinimg.com/originals/29/9f/29/299f2974a12149f7fbe3425a002ab33d.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.social img {
+  height: 30px;
+  width: 30px;
+}
+footer {
+  text-align: center;
+}
+
+img {
+  height: 900px;
+  width: 100%;
+  position: relative;
+}
+
+#method ol {
+  column-count: 3;
+  column-gap: 40px;
+}
+#recipe-main {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  font-family: "Nothing You Could Do", cursive;
+}
+#recipe-method {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: bold;
+}
+#misoIngredient {
+  padding: 10px;
+  font-family: "Nothing You Could Do", cursive;
+  background-color: burlywood;
+  font-weight: bold;
+}
+#about {
+  background-color: burlywood;
+  font-weight: bold;
+}
+#method {
+  background-color: burlywood;
+  font-weight: bold;
+}
+nav {
+  background-color: burlywood;
+  font-weight: bold;
+  float: center;
+}
+#mainMethod {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 10px;
 }
