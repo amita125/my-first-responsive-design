@@ -9,3 +9,4 @@ We were able to use the Bootstrap grid system to arrange the contents in our pag
 Bootstrap grid system. 
 ### What we would do differently next time
 Better detailed design planning.
+
