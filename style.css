@@ -14,6 +14,17 @@ header {
   background-size: cover;
   position: relative;
 }
+nav {
+  background-color: burlywood;
+  justify-content: center;
+}
+.nav-link {
+  padding: 10px;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bold;
+  color: #822107;
+}
 .repPage {
   background-image: url(https://i.pinimg.com/originals/29/9f/29/299f2974a12149f7fbe3425a002ab33d.jpg);
   background-position: center;
@@ -27,6 +38,10 @@ header {
 }
 footer {
   text-align: center;
+  font-family: cursive;
+  background-color: burlywood;
+  font-size: 20px;
+  padding: 10px;
 }
 
 img {
@@ -68,13 +83,9 @@ img {
   background-color: burlywood;
   font-weight: bold;
 }
-nav {
-  background-color: burlywood;
-  font-weight: bold;
-  float: center;
-}
-#mainMethod {
+.textTitle {
   text-align: center;
-  font-size: 50px;
+  font-size: 25px;
   padding-top: 10px;
+  font-family: cursive;
 }
