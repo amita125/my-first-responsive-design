@@ -1,9 +1,21 @@
 header {
   text-align: center;
+  padding: 10px;
+  background-color:#768aa08f;
+  font-family: 'Dancing Script', cursive;
+  background-image: url(miso.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+#title {
+  font-size: 80px;
+  color: #34393d;
+}
 .main {
   text-align: center;
+  color:#2a333c;
+  font-family: 'Dancing Script', cursive;
   padding-top: 200px;
   padding-bottom: 100px;
   padding-left: 100px;
@@ -77,4 +89,26 @@ nav {
   text-align: center;
   font-size: 50px;
   padding-top: 10px;
+}
+ button {
+   background: transparent;
+   border-radius: 20px;
+   width: 150px;
+   color: #4b5056;
+ }
+ button:hover {
+   background: hsl(0, 5%, 82%);
+
+ }
+.nav {
+  background-color:#68809a;
+  color: antiquewhite;
+  padding: 5px;
+}
+footer {
+  background-color:#68809a;
+  color: antiquewhite;
+}
+a {
+  color: antiquewhite;
 }
