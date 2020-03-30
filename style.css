@@ -1,8 +1,8 @@
 header {
   text-align: center;
   padding: 10px;
-  background-color:#768aa08f;
-  font-family: 'Dancing Script', cursive;
+  background-color: #768aa08f;
+  font-family: "Dancing Script", cursive;
   background-image: url(miso.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -14,8 +14,8 @@ header {
 }
 .main {
   text-align: center;
-  color:#2a333c;
-  font-family: 'Dancing Script', cursive;
+  color: #2a333c;
+  font-family: "Dancing Script", cursive;
   padding-top: 200px;
   padding-bottom: 100px;
   padding-left: 100px;
@@ -90,25 +90,54 @@ nav {
   font-size: 50px;
   padding-top: 10px;
 }
- button {
-   background: transparent;
-   border-radius: 20px;
-   width: 150px;
-   color: #4b5056;
- }
- button:hover {
-   background: hsl(0, 5%, 82%);
-
- }
+button {
+  background: transparent;
+  border-radius: 20px;
+  width: 150px;
+  color: #4b5056;
+}
+button:hover {
+  background: hsl(0, 5%, 82%);
+}
 .nav {
-  background-color:#68809a;
+  background-color: #68809a;
   color: antiquewhite;
   padding: 5px;
 }
 footer {
-  background-color:#68809a;
+  background-color: #68809a;
   color: antiquewhite;
 }
 a {
   color: antiquewhite;
+}
+.card-deck {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.info {
+  padding: 2px 16px;
+}
+#placeImg {
+  border-radius: 5px 5px 0 0;
+  height: fit-content;
+}
+.contactUs {
+  padding-left: 350px;
+  padding-top: 10px;
+  font-family: cursive;
+  color: slategray;
+  font-weight: bold;
+  font-size: 25px;
 }
