@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:600|Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Home</title>
 </head>
 <body>
     <div class="container-fluid">
     <header>
-        <h2>Miso Caramel Cake</h2>
+        <h2 id="title">Miso Caramel Cake</h2>
     </header>
     <nav class="nav">
         <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="#">Recipe</a>
-        <a class="nav-link" href="#">Restaurants</a>
-        <a class="nav-link" href="#">Contact us</a>
+        <a class="nav-link" href="recipe.html">Recipe</a>
+        <a class="nav-link" href="restaurant.html">Restaurants</a>
+        <a class="nav-link" href="contact.html">Contact us</a>
     </nav>
     <main>
        <div class="main">
@@ -27,8 +28,9 @@
              <br>
                One cannot think well, love well, sleep well, if one has not dined well.</h3>
          </p>
-         <button type="button">Ingredients</button>
-         <button type="button">Find me</button>
+         <button type="button" onclick="window.location.href = 'recipe.html'">Ingredients</button>
+         <button type="button" onclick="window.location.href = 'restaurant.html'">Find me</button>
+
        </div>
     </main>
     <footer>

@@ -1,18 +1,143 @@
 header {
-    text-align: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #768aa08f;
+  font-family: "Dancing Script", cursive;
+  background-image: url(miso.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title {
+  font-size: 80px;
+  color: #34393d;
+}
+.main {
+  text-align: center;
+  color: #2a333c;
+  font-family: "Dancing Script", cursive;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-image: url(https://hg-images.condecdn.net/image/YZk0rZk1vjE/crop/1440/f/miso.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.repPage {
+  background-image: url(https://i.pinimg.com/originals/29/9f/29/299f2974a12149f7fbe3425a002ab33d.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.social img {
+  height: 30px;
+  width: 30px;
+}
+footer {
+  text-align: center;
 }
 
-main {
-    background-image: url(https://hg-images.condecdn.net/image/YZk0rZk1vjE/crop/1440/f/miso.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-} 
-.main {
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+img {
+  height: 900px;
+  width: 100%;
+  position: relative;
+}
+
+#method ol {
+  column-count: 3;
+  column-gap: 40px;
+}
+#recipe-main {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  font-family: "Nothing You Could Do", cursive;
+}
+#recipe-method {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: bold;
+}
+#misoIngredient {
+  padding: 10px;
+  font-family: "Nothing You Could Do", cursive;
+  background-color: burlywood;
+  font-weight: bold;
+}
+#about {
+  background-color: burlywood;
+  font-weight: bold;
+}
+#method {
+  background-color: burlywood;
+  font-weight: bold;
+}
+nav {
+  background-color: burlywood;
+  font-weight: bold;
+  float: center;
+}
+#mainMethod {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 10px;
+}
+button {
+  background: transparent;
+  border-radius: 20px;
+  width: 150px;
+  color: #4b5056;
+}
+button:hover {
+  background: hsl(0, 5%, 82%);
+}
+.nav {
+  background-color: #68809a;
+  color: antiquewhite;
+  padding: 5px;
+}
+footer {
+  background-color: #68809a;
+  color: antiquewhite;
+}
+a {
+  color: antiquewhite;
+}
+.card-deck {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.info {
+  padding: 2px 16px;
+}
+#placeImg {
+  border-radius: 5px 5px 0 0;
+  height: fit-content;
+}
+.contactUs {
+  padding-left: 350px;
+  padding-top: 10px;
+  font-family: cursive;
+  color: slategray;
+  font-weight: bold;
+  font-size: 25px;
 }
